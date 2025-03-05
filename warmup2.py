@@ -27,14 +27,7 @@ customers = []
 
 
 # --- option 3, a class, welcome to the future
-class Customer:
-    def __init__(self, nameP, numP, moneyP):
-        self.name = nameP
-        self.num = numP
-        self.money = moneyP
-    
-    def add_money(self, amt):
-        self.money += amt
+# define the class and add_money method
 
 
 # create a few customer objects
